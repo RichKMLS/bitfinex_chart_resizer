@@ -2,7 +2,7 @@
 
 ![Bitfinex Before and After](https://github.com/RichKMLS/bitfinex_chart_resizer/assets/105183376/09a7bd2c-cae6-4050-8496-1cdd007ba851)
 
-This script resizes the chart container on Bitfinex trading pages to fit the size of the active window, removes some clutter.
+This script resizes the chart container on Bitfinex trading pages to fit the size of the active window and removes some clutter.
 ## Features
 - Resizes the chart container to fit the size of the active window
 - Removes a specified element
