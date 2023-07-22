@@ -1,0 +1,1 @@
+# bitfinex_chart_resizer
