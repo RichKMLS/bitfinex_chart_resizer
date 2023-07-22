@@ -44,6 +44,21 @@
                         elementToModify.style.paddingBottom = '0';
                     }
 
+                     // Define extra elements to remove
+                    let elementsToRemove = [
+                        '.mobile_banner_container',
+                        '.notification-text__text',
+                        '#chart-header > .collapsible > .ui-collapsible__header'
+                    ];
+
+                    // Remove the specified elements
+                    elementsToRemove.forEach(selector => {
+                        let element = document.querySelector(selector);
+                        if (element) {
+                            element.parentNode.removeChild(element);
+                        }
+                    });
+
                     // Clear the interval once the chart container is found and modified
                     clearInterval(interval);
                 }
